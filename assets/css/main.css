@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -189,7 +188,7 @@ div.gallery {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Playfair Display";
+		font-family: "Roboto";
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1419,7 +1418,7 @@ div.gallery {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					min-width: 12.0rem;
 					min-height: 2.75rem;
 					line-height: 1.25rem;
 					padding: 0 1.25rem 0 1.45rem;
@@ -1723,15 +1722,17 @@ div.gallery {
 		}
 
 body {
-	color: goldenrod;
-	font-weight: bold;
+	color: pearl;
+	font-weight: normal;
 }
 
 h3 {
-	color: goldenrod;
+	color: gold;
 	font-weight: bold;
 }
-
+h1 {
+	color: gold;
+}
 #main {
 	font-weight: normal;
 }
@@ -1739,5 +1740,23 @@ h3 {
 .center {
 	text-align: center;
 	vertical-align: middle;
-	line-height: 60px;       /* The same as your div height */
+}
+
+gold {
+	color: gold;
+}
+blockquote {
+	font-style: normal;
+	font-size: 18px;
+}
+smallintro {
+	font-size: 18px;
+}
+
+figcaption {
+	font-size: 14px;
+}
+
+#header nav ul li a {
+	font-size: 14px;
 }
