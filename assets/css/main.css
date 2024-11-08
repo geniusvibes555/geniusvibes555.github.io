@@ -24,6 +24,9 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+h3 {
+	font-size: 20px;
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -34,6 +37,23 @@ body {
 
 ol, ul {
 	list-style: none;
+}
+
+.parent {
+  width: 50vh;
+  height: 75vh;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parent-boost {
+  width: 50vh;
+  height: 68vh;
+  overflow: hidden;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 blockquote, q {
@@ -767,6 +787,22 @@ div.gallery {
 				margin: 2rem 0;
 			}
 
+			.parent {
+			  width: inherit;
+			  height: inherit;
+			  overflow: inherit;
+			  margin-left: inherit;
+			  margin-right: inherit;
+			}
+
+			.parent-boost {
+			  width: inherit;
+			  height: inherit;
+			  overflow: inherit;
+			  margin-left: inherit;
+			  margin-right: inherit;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -775,6 +811,21 @@ div.gallery {
 				margin: 1.5rem 0;
 			}
 
+			.parent {
+			  width: inherit;
+			  height: inherit;
+			  overflow: inherit;
+			  margin-left: inherit;
+			  margin-right: inherit;
+			}
+
+			.parent-boost {
+			  width: inherit;
+			  height: inherit;
+			  overflow: inherit;
+			  margin-left: inherit;
+			  margin-right: inherit;
+			}
 		}
 
 /* List */
@@ -1845,37 +1896,12 @@ article ul {
 
 article h3{
 	color: #900055;
-	font-size: 20px;
 }
 
 article custom_color {
 	color: #900055;
 }
 
-.parent {
-  border: 1px solid;
-  width: 50vh;
-  height: 75vh;
-  overflow: hidden;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.parent-boost {
-  border: 1px solid;
-  width: 50vh;
-  height: 68vh;
-  overflow: hidden;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img {
-  max-width: inherit;
-  max-height: inherit;
-  height: inherit;
-  width: inherit;
-  object-fit: cover;
+#button_back a  {
+	float: right
 }
