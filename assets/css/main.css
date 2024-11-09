@@ -48,8 +48,8 @@ ol, ul {
 }
 
 .parent-boost {
-  width: 50vh;
-  height: 68vh;
+  width: 30vh;
+  height: 45vh;
   overflow: hidden;
   display: flex;
   margin-left: auto;
@@ -306,7 +306,7 @@ div.gallery {
 		}
 	}
 
-	@media screen and (max-width: 415px) {
+	@media screen and (max-width: 500px) {
 		h3.major {
 			font-size: 10px;
 		}
@@ -847,8 +847,6 @@ div.gallery {
 			}
 
 			.parent-boost {
-			width: 50vh;
-			height: 68vh;
 			overflow: hidden;
 			display: flex;
 			margin-left: auto;
